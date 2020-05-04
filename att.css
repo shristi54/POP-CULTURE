@@ -1,0 +1,82 @@
+* img {
+  margin: 10px;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/about3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about {
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  0% {
+    transform: rotateX(15 deg);
+    color: coral;
+  }
+  25% {
+    transform: translate3d(10px);
+    color: rgb(196, 71, 29);
+  }
+  50% {
+    transform: rotateZ(10 deg);
+    color: darkgoldenrod;
+  }
+  75% {
+    transform: translateZ(10px);
+    color: indianred;
+  }
+  100% {
+    color: rgb(114, 141, 15);
+  }
+}
+.cont {
+  font-weight: lighter;
+  color: aliceblue;
+  font-size: 19px;
+  font-style: italic;
+}
+span {
+  font-weight: bolder;
+}
+p {
+  margin: 5px;
+  color: darkgrey;
+  font-size: 26px;
+}
+div {
+  color: rgba(199, 159, 39, 0.5);
+  font-size: 23px;
+}
+h2 {
+  font-size: 60px;
+  color: chocolate;
+  text-align: center;
+  text-shadow: 6px 0px 3px #170b11;
+}
+h3 {
+  font-size: 45px;
+  font-weight: bolder;
+  color: burlywood;
+}
+h4 {
+  color: darkkhaki;
+  font-size: larger;
+  font: outline;
+}
+.first {
+  margin: 5px;
+  color: darkgrey;
+  font-size: 26px;
+}
+.second {
+  float: right;
+  border: 3px dotted rgb(177, 105, 22);
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 200px;
+}

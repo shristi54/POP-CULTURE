@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/about3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  font-size: 60px;
+  color: chocolate;
+  text-align: center;
+  text-shadow: 6px 0px 3px #170b11;
+}
+.about {
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  0% {
+    color: coral;
+  }
+  25% {
+    color: rgb(196, 71, 29);
+  }
+  50% {
+    color: darkgoldenrod;
+  }
+  75% {
+    color: indianred;
+  }
+  100% {
+    color: rgb(114, 141, 15);
+  }
+}
+
+.first {
+  float: left;
+  width: 450px;
+  margin-left: auto;
+}
+.second {
+  float: right;
+}
+p {
+  margin: 5px;
+  color: darkgrey;
+  font-size: 26px;
+}
+span {
+  font-weight: bolder;
+}
+h3 {
+  font-size: 45px;
+  font-weight: bolder;
+  color: burlywood;
+}
+h4 {
+  color: darkkhaki;
+  font-size: larger;
+  font: outline;
+}
+.cont {
+  font-weight: lighter;
+  color: aliceblue;
+  font-size: 19px;
+  font-style: italic;
+}
+div {
+  color: rgba(199, 159, 39, 0.5);
+  font-size: 23px;
+}
+.fourth {
+  margin: 5px;
+  float: left;
+}
+.fifth {
+  float: left;
+}
+.sixth {
+  float: left;
+}

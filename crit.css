@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/about3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.cont {
+  font-weight: lighter;
+  color: aliceblue;
+  font-size: 19px;
+  font-style: italic;
+}
+.about {
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  0% {
+    transform: rotateX(15 deg);
+    color: coral;
+  }
+  25% {
+    transform: translate3d(10px);
+    color: rgb(196, 71, 29);
+  }
+  50% {
+    transform: rotateZ(10 deg);
+    color: darkgoldenrod;
+  }
+  75% {
+    transform: translateZ(10px);
+    color: indianred;
+  }
+  100% {
+    color: rgb(114, 141, 15);
+  }
+}
+p {
+  margin: 5px;
+  color: darkgrey;
+  font-size: 26px;
+}
+h2 {
+  font-size: 60px;
+  color: chocolate;
+  text-align: center;
+  text-shadow: 6px 0px 3px #170b11;
+}
+h3 {
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgba(250, 244, 244, 0.555);
+}
+h4 {
+  color: darkkhaki;
+  font-size: larger;
+  font: outline;
+}
+div {
+  color: rgba(45, 155, 199, 0.92);
+  font-size: 23px;
+  font-weight: bolde;
+}
+.one {
+  margin-block: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url("./img/one.jpeg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.two {
+  margin-block: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/two.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.three {
+  margin-block: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("./img/three12.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
