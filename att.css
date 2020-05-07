@@ -8,6 +8,7 @@ body {
   background-size: cover;
 }
 .about {
+  width: 100vw;
   animation-name: move;
   animation-duration: 5s;
   animation-iteration-count: infinite;
