@@ -1,25 +1,38 @@
 body {
-  background: url("./bg.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #14011696 0%,
+    #892d96 5%,
+    #630666 9%,
+    #07090a 15%,
+    #7a104e 22%,
+    #08171f 35%,
+    #751a57 50%,
+    #08171f 75%,
+    #151516 86%,
+    #07090a 105%
+  );
 }
 .cont {
   font-weight: lighter;
   color: aliceblue;
-  font-size: 19px;
-  font-style: italic;
+  font-size: 20px;
 }
 p {
   margin: 5px;
   color: darkgrey;
   font-size: 26px;
+  font-family: "Galada", cursive;
 }
 h2 {
-  font-size: 60px;
+  font-size: 73px;
+  justify-content: center;
+  display: flex;
   color: chocolate;
   text-align: center;
   text-align: center;
   text-shadow: 6px 0px 3px #170b11;
+  font-family: "Bowlby One SC", cursive;
 }
 .about {
   animation-name: move;
@@ -57,7 +70,16 @@ h4 {
   padding: 5px;
   float: right;
   margin-right: 13px;
-  border: 3px dotted white;
+  border: 1px solid rgb(94, 87, 87);
   font-size: 15px;
   width: 450px;
+}
+.end {
+  padding: 10px;
+  border-top: 3px solid rgb(94, 87, 87);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+  font-family: "EB Garamond", serif;
+}
+.icon {
+  margin: 22px 12px;
 }

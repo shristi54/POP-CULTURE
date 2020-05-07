@@ -8,8 +8,7 @@ body {
 .cont {
   font-weight: lighter;
   color: aliceblue;
-  font-size: 19px;
-  font-style: italic;
+  font-size: 20px;
 }
 .about {
   animation-name: move;
@@ -43,15 +42,20 @@ p {
   font-size: 26px;
 }
 h2 {
-  font-size: 60px;
+  font-size: 73px;
+  justify-content: center;
+  display: flex;
   color: chocolate;
   text-align: center;
   text-shadow: 6px 0px 3px #170b11;
+  font-family: "Bowlby One SC", cursive;
 }
 h3 {
-  font-size: 45px;
+  margin-left: 10px;
+  font-size: 30px;
   font-weight: bolder;
   color: rgba(250, 244, 244, 0.555);
+  font-family: "Sonsie One", cursive;
 }
 h4 {
   color: darkkhaki;
@@ -62,6 +66,7 @@ div {
   color: rgba(45, 155, 199, 0.92);
   font-size: 23px;
   font-weight: bolde;
+  font-family: "Galada", cursive;
 }
 .one {
   margin-block: 0;
@@ -92,4 +97,10 @@ div {
   background-size: cover;
   display: flex;
   justify-content: center;
+}
+.end {
+  padding: 10px;
+  border-top: 3px solid rgb(94, 87, 87);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+  font-family: "EB Garamond", serif;
 }

@@ -1,7 +1,22 @@
-body {
+/* body {
   background: url("./bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
+} */
+body {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #14011696 0%,
+    #892d96 5%,
+    #630666 9%,
+    #07090a 15%,
+    #7a104e 22%,
+    #08171f 35%,
+    #751a57 50%,
+    #08171f 75%,
+    #151516 86%,
+    #07090a 105%
+  );
 }
 h1 {
   text-align: center;
@@ -10,28 +25,57 @@ h1 {
   min-width: calc(100vw-750px);
   margin: auto;
   font-size: 100px;
-  color: aqua;
-  text-shadow: 7px 5px 5px rgba(206, 89, 55, 0.91);
+  color: rgb(164, 150, 177);
+  text-shadow: 7px 3px 9px rgba(27, 3, 3, 0.91);
+  font-family: "Elsie", cursive;
+}
+.about {
+  animation-name: move;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  0% {
+    transform: rotateX(15deg);
+    color: black;
+    text-shadow: 7px 3px 9px rgba(85, 80, 80, 0.91);
+  }
+  100% {
+    color: rgb(63, 57, 57);
+    text-shadow: 7px 3px 9px rgba(27, 3, 3, 0.91);
+  }
 }
 .bg {
   width: 450px;
   margin-left: auto;
-  color: aqua;
+  color: rgb(90, 95, 95);
   font-size: xx-large;
   font-weight: bold;
   font-style: italic;
 }
+.bg:hover {
+  font: outline;
+}
 h2 {
-  margin: 25px;
-  color: violet;
+  margin: 30px;
+  color: rgb(105, 92, 92);
+}
+h2:hover {
+  transform: rotateZ(10deg);
+  transition: 1s linear;
 }
 .cont {
-  color: aliceblue;
+  color: white;
   font-size: 25px;
-  font-style: italic;
+  font-weight: lighter;
+  font-family: "Fredoka One", cursive;
+}
+.last:hover {
+  transform: translateY(-8px);
+  transition: 1s linear;
 }
 a {
   font-style: normal;
-  font-weight: bolder;
+  font-weight: initial;
   font-size: 20px;
 }

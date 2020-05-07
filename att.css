@@ -36,8 +36,7 @@ body {
 .cont {
   font-weight: lighter;
   color: aliceblue;
-  font-size: 19px;
-  font-style: italic;
+  font-size: 20px;
 }
 span {
   font-weight: bolder;
@@ -46,21 +45,27 @@ p {
   margin: 5px;
   color: darkgrey;
   font-size: 26px;
+  font-family: "Galada", cursive;
 }
 div {
   color: rgba(199, 159, 39, 0.5);
   font-size: 23px;
+  font-family: "Galada", cursive;
 }
 h2 {
-  font-size: 60px;
+  font-size: 73px;
+  justify-content: center;
+  display: flex;
   color: chocolate;
   text-align: center;
   text-shadow: 6px 0px 3px #170b11;
+  font-family: "Bowlby One SC", cursive;
 }
 h3 {
   font-size: 45px;
   font-weight: bolder;
   color: burlywood;
+  font-family: "Sonsie One", cursive;
 }
 h4 {
   color: darkkhaki;
@@ -71,6 +76,7 @@ h4 {
   margin: 5px;
   color: darkgrey;
   font-size: 26px;
+  font-family: "Galada", cursive;
 }
 .second {
   float: right;
@@ -79,4 +85,10 @@ h4 {
   padding: 10px;
   margin: 10px;
   max-width: 200px;
+}
+.end {
+  padding: 10px;
+  border-top: 3px solid rgb(94, 87, 87);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+  font-family: "EB Garamond", serif;
 }
