@@ -42,7 +42,9 @@ p {
   font-family: "Galada", cursive;
 }
 h2 {
-  font-size: 73px;
+  margin-block: 10px;
+  font-size: 69px;
+  width: 100vw;
   justify-content: center;
   display: flex;
   text-shadow: 6px 0px 3px #170b11;
