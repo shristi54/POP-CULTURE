@@ -22,7 +22,7 @@ h1 {
   text-align: center;
   display: flex;
   justify-content: center;
-  min-width: calc(100vw-750px);
+  min-width: calc(100vw-700px);
   margin: auto;
   font-size: 100px;
   color: rgb(164, 150, 177);

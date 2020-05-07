@@ -42,7 +42,9 @@ p {
   font-size: 26px;
 }
 h2 {
-  font-size: 73px;
+  margin-block: 10px;
+  font-size: 69px;
+  width: 100vw;
   justify-content: center;
   display: flex;
   color: chocolate;
